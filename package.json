@@ -1,10 +1,11 @@
 {
   "name": "the-social-network-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "<p align=\"center\">\r     <img src=\"https://img.shields.io/badge/javascript-yellow\" />\r     <img src=\"https://img.shields.io/badge/express-orange\" />\r     <img src=\"https://img.shields.io/badge/MongoDB-blue\"  />\r     <img src=\"https://img.shields.io/badge/mongoose-red\"  />\r     <img src=\"https://img.shields.io/badge/moment-blue\"  />\r     <img src=\"https://img.shields.io/badge/nodemon-green\" />\r </p>",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,6 @@
     "express": "^4.17.3",
     "moment": "^2.29.1",
     "mongoose": "^6.2.4"
-  }
+  },
+  "devDependencies": {}
 }
